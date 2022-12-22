@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase">Skills</p>
-        <h2 className="py-4">The tools I Use</h2>
+        <h2 className="py-4">The Tools I Use</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <TechIcon
             techName="JavaScript"

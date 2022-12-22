@@ -34,7 +34,7 @@ function NavBar() {
             </Link>
             <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">
-                    Training
+                    Education
               </li>
             </Link>
             <Link href="/">
@@ -83,7 +83,7 @@ function NavBar() {
                 <li className="py-4 text-sm">Projects</li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">Training</li>
+                <li className="py-4 text-sm">Education</li>
               </Link>
               <Link href="/">
                 <li className="py-4 text-sm">Contact</li>
