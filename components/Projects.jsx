@@ -12,7 +12,7 @@ const Projects = () => {
           <ProjectItem
             title="Crypto Dashboard"
             projectImg={dashboardImg}
-            projectUrl='Crypto'
+            projectPage='Dashboard'
           />
           </div>
         </div>
