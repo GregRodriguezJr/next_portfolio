@@ -43,7 +43,7 @@ const Dashboard = () => {
             <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="mr-1" />JavaScript</p>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/'>
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

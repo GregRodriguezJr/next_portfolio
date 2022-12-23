@@ -19,7 +19,7 @@ function NavBar() {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {
-      setNavBg('ecf0f3');
+      setNavBg('#ecf0f3');
       setLinkColor('#1f2937');
     }
   },[router])
