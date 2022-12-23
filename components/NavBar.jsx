@@ -1,28 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
-
-  useEffect(()=> {
-    if (
-      router.asPath === '/Dashboard'
-    ) {
-      setNavBg('transparent');
-      setLinkColor('#ecf0f3');
-    } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
-    }
-  },[router])
 
   const handleNav = () => {
     setNav(!nav);
@@ -38,21 +23,15 @@ function NavBar() {
   
 
   return (
-    <div 
-      style={{backgroundColor:`${navBg}`}}
-      className={
-        shadow 
-          ? "fixed w-full h-20 shadow-xl z-[100]" 
-          : "fixed w-full h-20 z-[100]"
-      }
-    >
+    <div className="fixed w-full h-16 shadow-xl z-[100] bg-[#ecf0f3]" >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/#" alt="/" width="125" height="50" />
+        <Link href='/'>
+          <h3 className='ml-2'>
+            {'< '}G / R{' >'}
+          </h3>
+        </Link>
         <div>
-          <ul 
-            style={{color:`${linkColor}`}}
-            className="hidden md:flex"
-          >
+          <ul className="hidden md:flex">
             <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                     Home
@@ -75,7 +54,7 @@ function NavBar() {
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} style={{color:`${linkColor}`}} />
+            <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
@@ -93,7 +72,14 @@ function NavBar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src="/#" alt="/" width="85" height="35" />
+            <Link href='/'>
+              <h3 
+                className='ml-2'
+                onClick={()=> setNav(false)}
+              >
+                {'< '}G / R{' >'}
+              </h3>
+            </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -117,20 +103,6 @@ function NavBar() {
                 <li onClick={()=> setNav(false)} className="py-4 text-sm">Education</li>
               </Link>
             </ul>
-            <div className="pt-40">
-              <p className="uppercase tracking-widest">Let's Connect</p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

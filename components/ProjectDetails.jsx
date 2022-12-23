@@ -14,8 +14,8 @@ const ProjectDetails = ({
 }) => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[30vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40-vh] bg-black/80 z-10" />
+      <div className="w-screen h-[40vh] relative">
+        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[40-vh] bg-black/80 z-10" />
         <Image
           className="absolute z-1"
           style={{ objectFit: "cover" }}
@@ -42,7 +42,7 @@ const ProjectDetails = ({
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <p className="text-center font-bold pb-2">Technologies</p>
-          <div className="grid grid-cols-3 md:grid-cols-1">
+          <div className="grid grid-cols-2 md:grid-cols-1">
             {techArr.map((techItem) => {
               return (
                 <p className="text-gray-600 py-2 flex items-center">
