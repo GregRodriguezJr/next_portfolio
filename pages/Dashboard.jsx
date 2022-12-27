@@ -8,7 +8,8 @@ const Dashboard = () => {
     'JavaScript',
     'jQuery',
     'Bootstrap',
-    'CoinGecko API'
+    'CoinGecko API',
+    'GitHub Pages'
   ]
 
   return (
