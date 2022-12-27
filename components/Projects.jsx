@@ -1,6 +1,7 @@
 import React from 'react'
 import dashboardImg from '../public/assets/dashboard.png'
 import ProjectItem from './ProjectItem';
+import noelImg from '../public/assets/noelImg.png'
 
 const Projects = () => {
   return (
@@ -13,6 +14,11 @@ const Projects = () => {
             title="Crypto Dashboard"
             projectImg={dashboardImg}
             projectPage='Dashboard'
+          />
+          <ProjectItem
+            title="Noel Designs"
+            projectImg={noelImg}
+            projectPage='NoelDesigns'
           />
           </div>
         </div>
