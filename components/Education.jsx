@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Education = () => {
@@ -21,9 +22,11 @@ const Education = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
+          <Image 
+            width={500}
+            height={500}
             className="p-2 rounded-xl"
-            src="assets/CodeupLogo.png"
+            src="/assets/CodeupLogo.png"
             alt="codeup logo"
           />
         </div>

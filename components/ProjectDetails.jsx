@@ -33,10 +33,18 @@ const ProjectDetails = ({
           <p className="ml-1 text-[#2980b9]">Project</p>
           <h2 className="py-2">Overview</h2>
           <p>{description}</p>
-          <a target="_blank" href={demoUrl}>
+          <a 
+            target="_blank" 
+            rel="noreferrer"
+            href={demoUrl}
+          >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a target="_blank" href={codeUrl}>
+          <a 
+            target="_blank" 
+            rel="noreferrer"
+            href={codeUrl}
+          >
             <button className="px-8 py-2 mt-4">Source Code</button>
           </a>
         </div>
