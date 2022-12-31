@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,7 @@ function NavBar() {
           </h3>
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex items-center">
             <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                     Home
@@ -50,7 +51,22 @@ function NavBar() {
             <Link href="/#education">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                     Education
-              </li>
+                </li>
+            </Link>
+            <Link href="https://www.github.com/GregRodriguezJr" target='_blank' rel="noreferrer">
+                <li className="ml-10">
+                  <FaGithub size={25}/>
+                </li>
+            </Link>
+            <Link href="https://www.linkedin.com/in/greg-rodriguez-jr/" target='_blank' rel="noreferrer">
+                <li className="ml-10">
+                  <FaLinkedinIn size={25}/>
+                </li>
+            </Link>
+            <Link href="mailto:greg.rodriguez@outlook.com" target='_blank' rel="noreferrer">
+                <li className="ml-10 mr-5">
+                  <AiOutlineMail size={25}/>
+                </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -103,6 +119,33 @@ function NavBar() {
                 <li onClick={()=> setNav(false)} className="py-4 text-sm">Education</li>
               </Link>
             </ul>
+          </div>
+          <div className="flex items-center justify-between m-auto py-4">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.github.com/GregRodriguezJr"
+                onClick={()=> setNav(false)}
+              >
+                <FaGithub />
+              </a>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/greg-rodriguez-jr/"
+                onClick={()=> setNav(false)}
+              >
+                <FaLinkedinIn />
+              </a>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <a href="mailto:greg.rodriguez@outlook.com">
+                <AiOutlineMail />
+              </a>
+            </div>
           </div>
         </div>
       </div>

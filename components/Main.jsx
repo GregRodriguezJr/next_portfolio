@@ -33,30 +33,6 @@ function Main() {
             opportunity to leverage technical and collaborative skills to be
             part of a team and write clean code with innovative technologies.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/gregrodriguezjr/"
-              >
-                <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a 
-                target="_blank" 
-                rel="noreferrer"
-                href="https://www.github.com/GregRodriguezJr">
-                <FaGithub />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a href="mailto:greg.rodriguez@outlook.com">
-                <AiOutlineMail />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
