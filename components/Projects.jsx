@@ -2,6 +2,7 @@ import React from "react";
 import dashboardImg from "../public/assets/dashboard.png";
 import ProjectItem from "./ProjectItem";
 import noelImg from "../public/assets/noelImg.png";
+import traquraImg from "../public/assets/traqura.png"
 
 const Projects = () => {
   return (
@@ -12,6 +13,11 @@ const Projects = () => {
         </p>
         <h2 className="py-4">{`What I've Built`}</h2>
         <div className="grid md:grid-cols-2 gap-8">
+           <ProjectItem
+            title="Traqura"
+            projectImg={traquraImg}
+            projectPage="/Traqura"
+          />
           <ProjectItem
             title="Crypto Dashboard"
             projectImg={dashboardImg}
