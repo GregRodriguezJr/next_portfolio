@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <div id="skills" className="pt-20 md:py-40 lg:py-60">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center">
-        <p className="text-xl tracking-widest uppercase text-[#2980b9]">Skills</p>
+        <p className="text-xl tracking-widest uppercase text-[#2980b9]">
+          Skills
+        </p>
         <h2 className="py-4">The Tools I Use</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <TechIcon
@@ -27,6 +29,10 @@ const Skills = () => {
           <TechIcon
             techName="MySQL"
             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          />
+          <TechIcon
+            techName="Firebase"
+            techImgSrc="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
           />
           <TechIcon
             techName="Bootstrap"

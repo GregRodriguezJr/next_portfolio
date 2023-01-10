@@ -2,7 +2,8 @@ import React from "react";
 import dashboardImg from "../public/assets/dashboard.png";
 import ProjectItem from "./ProjectItem";
 import noelImg from "../public/assets/noelImg.png";
-import traquraImg from "../public/assets/traqura.png"
+import traquraImg from "../public/assets/traqura.png";
+import movieAppImg from "../public/assets/movieAppImg.png";
 
 const Projects = () => {
   return (
@@ -17,6 +18,11 @@ const Projects = () => {
             title="Traqura"
             projectImg={traquraImg}
             projectPage="/Traqura"
+          />
+           <ProjectItem
+            title="Movie App"
+            projectImg={movieAppImg}
+            projectPage="/MovieApp"
           />
           <ProjectItem
             title="Crypto Dashboard"
