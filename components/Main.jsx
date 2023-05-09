@@ -15,6 +15,7 @@ function Main() {
             width={250}
             height={250}
             className="rounded-xl m-auto"
+            alt="Developers Professional Headshot"
           />
         </div>
 
