@@ -63,7 +63,7 @@ function NavBar() {
                   <FaLinkedinIn size={25}/>
                 </li>
             </Link>
-            <Link href="mailto:greg.rodriguez@outlook.com" target='_blank' rel="noreferrer">
+            <Link href="mailto:greg.c.rodriguez.jr@gmail.com" target='_blank' rel="noreferrer">
                 <li className="ml-10 mr-5">
                   <AiOutlineMail size={25}/>
                 </li>

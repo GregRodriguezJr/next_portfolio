@@ -39,7 +39,7 @@ function Main() {
           </h2>
           <p className="p-4 text-gray-600 m-auto">
             Self-Discipline Software Developer and Veteran with sales,
-            problem-solving, and leadership experience. I'm Seeking the
+            problem-solving, and leadership experience. I'm seeking the
             opportunity to leverage technical and collaborative skills to be
             part of a team and write clean code with innovative technologies.
           </p>
