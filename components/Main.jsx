@@ -28,8 +28,7 @@ function Main() {
             <Typewriter
               options={{
                 strings: [
-                  "Full Stack Developer",
-                  "Front End Developer",
+                  "Software Engineer",
                   "Software Developer",
                 ],
                 autoStart: true,
@@ -40,9 +39,7 @@ function Main() {
           </h2>
           <p className="p-4 text-gray-600 m-auto">
             Self-Discipline Software Developer and Veteran with sales,
-            problem-solving, and leadership experience. Being an adaptable
-            individual with a passion to learn inspired the shift to focus on
-            pursuing a full-time career in the tech industry. Seeking the
+            problem-solving, and leadership experience. I'm Seeking the
             opportunity to leverage technical and collaborative skills to be
             part of a team and write clean code with innovative technologies.
           </p>
