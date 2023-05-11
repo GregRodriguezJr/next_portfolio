@@ -16,12 +16,12 @@ const NoelDesigns = () => {
   return (
     <ProjectDetails
       bgImg={noelImg}
-      title="Noel Designs"
+      title="Noel Fotos"
       subtitle="A Photography Portfolio"
-      description="Noel Designs is a web application that displays a photo gallery portfolio. Users can click on an image to show a larger image within a modal to move images forward and reverse with the carousel buttons. This is the current template for the landing page and image gallery. Placeholder images are being used in cloudinary until the client provides images."
+      description="The application allows users to browse and select photo albums from a Cloundinary collection. Once an album is chosen, the application presents the user with a visually appealing gallery view. Noel Fotos aims to provide a user-friendly and visually engaging photo album application. Through its Next.js implementation, the project offers a seamless browsing experience, allowing users to effortlessly navigate between album selection and gallery views."
       techArr={techStack}
-      demoUrl="https://noeldesigns.vercel.app/"
-      codeUrl="https://github.com/noeldesign/image-gallery"
+      demoUrl="https://cloudinary-images.vercel.app/"
+      codeUrl="https://github.com/noeldesign/cloudinary_images"
     />
   );
 };

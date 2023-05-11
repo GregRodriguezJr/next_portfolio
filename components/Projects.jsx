@@ -20,7 +20,7 @@ const Projects = () => {
             projectPage="/MovieApp"
           />
           <ProjectItem
-            title="Noel Designs"
+            title="Noel Fotos"
             projectImg={noelImg}
             projectPage="/NoelDesigns"
           />
