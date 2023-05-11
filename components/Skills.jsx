@@ -27,6 +27,14 @@ const Skills = () => {
             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
           />
           <TechIcon
+            techName="C++"
+            techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+          />
+          <TechIcon
+            techName="Python"
+            techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+          />
+          <TechIcon
             techName="MySQL"
             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
           />
@@ -45,6 +53,10 @@ const Skills = () => {
           <TechIcon
             techName="Git"
             techImgSrc="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+          />
+          <TechIcon
+            techName="Postman"
+            techImgSrc="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
           />
         </div>
       </div>

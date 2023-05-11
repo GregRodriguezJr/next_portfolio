@@ -1,7 +1,7 @@
 import React from "react";
 import dashboardImg from "../public/assets/dashboard.png";
 import ProjectItem from "./ProjectItem";
-import noelImg from "../public/assets/noelImg.png";
+import noelImg from "../public/assets/noelfotos.png";
 import traquraImg from "../public/assets/traqura.png";
 import movieAppImg from "../public/assets/movieAppImg.png";
 
