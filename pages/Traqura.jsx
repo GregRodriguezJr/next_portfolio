@@ -18,9 +18,9 @@ const Traqura = () => {
       bgImg={traquraImg}
       title="Traqura"
       subtitle="Personal Organization App"
-      description="Traqura is the smart(er) solution for home inventory and personal organization. This web app allows users to transform their mobile device into a powerful inventory management tool where they can catalog their items, their value, and track them via self-assigned locations and totes."
+      description="A mobile-first home inventory web app that allows users to maintain the location and value of all their belongings. The frontend is built using React.js and styled with custom CSS and Bootstrap. The application is secured using Spring Security 6.0 and token-based (JWT) authorization. Users can create, edit, view, and delete spaces, and items."
       techArr={techStack}
-      demoUrl="https://traqura.xyz/"
+      demoUrl="https://github.com/Capstone-GJR/frontend"
       codeUrl="https://github.com/orgs/Capstone-GJR/repositories"
     />
   );
