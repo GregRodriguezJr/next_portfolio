@@ -30,6 +30,7 @@ function NavBar() {
                         src="/assets/favicon-32x32.png"
                         width={32}
                         height={32}
+                        alt="logo"
                     />
                 </Link>
                 <div>
@@ -105,11 +106,12 @@ function NavBar() {
                         <div className="flex w-full items-center justify-between">
                             <Link href="/">
                                 <Image
-                                className="mt-2 shadow-lg shadow-gray-400 cursor-pointer"
+                                    className="mt-2 shadow-lg shadow-gray-400 cursor-pointer"
                                     onClick={() => setNav(false)}
                                     src="/assets/favicon-32x32.png"
                                     width={32}
                                     height={32}
+                                    alt="logo"
                                 />
                             </Link>
                             <div

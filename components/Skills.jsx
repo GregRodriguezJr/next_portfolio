@@ -3,7 +3,7 @@ import TechIcon from "./TechIcon";
 
 const Skills = () => {
   return (
-    <div id="skills" className="pt-20 md:py-40 lg:py-60">
+    <div id="skills" className="px-3 pt-20 md:py-40 lg:py-60">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center">
         <p className="text-xl tracking-widest uppercase text-[#2980b9]">
           Skills
