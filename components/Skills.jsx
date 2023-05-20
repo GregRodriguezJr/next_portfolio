@@ -21,7 +21,7 @@ const skillImg = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 1,
+            duration: 2,
         },
     },
 };
@@ -39,75 +39,55 @@ const Skills = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: false }}
-                    className="grid grid-cols-2 lg:grid-cols-4 gap-8"
                 >
-                    <motion.div variants={skillImg}>
+                    <motion.div
+                        variants={skillImg}
+                        className="grid grid-cols-2 lg:grid-cols-4 gap-8"
+                    >
                         <TechIcon
                             techName="JavaScript"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="React"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Java"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Spring"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="C++"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Python"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="MySQL"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Firebase"
                             techImgSrc="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Bootstrap"
                             techImgSrc="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="TailwindCSS"
                             techImgSrc="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Git"
                             techImgSrc="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                         />
-                    </motion.div>
-                    <motion.div variants={skillImg}>
                         <TechIcon
                             techName="Postman"
                             techImgSrc="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
